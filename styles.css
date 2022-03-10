@@ -1,0 +1,162 @@
+* {
+    font-family: 'Roboto', 'Time New Romans', 'san-serif';
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 30px 150px;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section {
+    padding: 50px 150px;
+    display: flex;
+    flex: 1;
+}
+
+.main {
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #1F2937;
+}
+
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #F9FAF8;
+}
+
+.hero-text > button {
+    background-color: #3882F6;
+    width: 100px;
+    border-radius: 8px;
+    padding: 5px;
+    color: #F9FAF8;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 12px;
+}
+
+img {
+    flex: 1;
+}
+
+footer {
+    color: #F9FAF8;
+    justify-content: center;
+}
+
+.section.info {
+    display: block;
+    text-align: center;
+}
+
+.info > h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.card {
+    width: 130px;
+    height: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote > q {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote > p {
+    text-align: right;
+}
+
+.section.action {
+    flex-direction: column;
+}
+
+.action > .container {
+    background-color: #3882F6;
+    border-radius: 5px;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.signup > h3, p {
+    margin: 0;
+}
+
+.signup > h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.signup > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn {
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 5px;
+    color:#F9FAF8;
+    padding: 10px 40px;
+}
